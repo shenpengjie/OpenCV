@@ -1,0 +1,64 @@
+﻿  main.cpp
+c:\users\spj\source\repos\face\face\main.cpp(28): warning C4065: switch 语句包含“default”但是未包含“case”标签
+c:\users\spj\source\repos\face\face\main.cpp(19): warning C4102: “case1”: 未引用的标签
+c:\users\spj\source\repos\face\face\main.cpp(22): warning C4102: “case3”: 未引用的标签
+c:\users\spj\source\repos\face\face\main.cpp(98): error C2065: “FaceRecognizer”: 未声明的标识符
+c:\users\spj\source\repos\face\face\main.cpp(98): error C2923: “cv::Ptr”: 对于参数“T”，“FaceRecognizer”不是有效的 模板 类型变量
+c:\users\spj\source\repos\face\face\main.cpp(98): error C3861: “createEigenFaceRecognizer”: 找不到标识符
+c:\users\spj\source\repos\face\face\main.cpp(98): error C2514: “cv::Ptr”: 类没有构造函数
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(99): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(99): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(99): error C2039: “train”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(100): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(100): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(100): error C2039: “save”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(102): error C2065: “FaceRecognizer”: 未声明的标识符
+c:\users\spj\source\repos\face\face\main.cpp(102): error C2923: “cv::Ptr”: 对于参数“T”，“FaceRecognizer”不是有效的 模板 类型变量
+c:\users\spj\source\repos\face\face\main.cpp(102): error C3861: “createFisherFaceRecognizer”: 找不到标识符
+c:\users\spj\source\repos\face\face\main.cpp(102): error C2514: “cv::Ptr”: 类没有构造函数
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(103): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(103): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(103): error C2039: “train”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(104): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(104): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(104): error C2039: “save”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(106): error C2065: “FaceRecognizer”: 未声明的标识符
+c:\users\spj\source\repos\face\face\main.cpp(106): error C2923: “cv::Ptr”: 对于参数“T”，“FaceRecognizer”不是有效的 模板 类型变量
+c:\users\spj\source\repos\face\face\main.cpp(106): error C3861: “createLBPHFaceRecognizer”: 找不到标识符
+c:\users\spj\source\repos\face\face\main.cpp(106): error C2514: “cv::Ptr”: 类没有构造函数
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(107): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(107): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(107): error C2039: “train”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(108): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(108): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(108): error C2039: “save”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(111): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(111): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(111): error C2039: “predict”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(112): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(112): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(112): error C2039: “predict”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
+c:\users\spj\source\repos\face\face\main.cpp(113): error C2678: 二进制“->”: 没有找到接受“cv::Ptr”类型的左操作数的运算符(或没有可接受的转换)
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(370): note: 可能是“T *cv::Ptr<T>::operator ->(void) const”
+  c:\users\spj\source\repos\face\face\main.cpp(113): note: 尝试匹配参数列表“(cv::Ptr)”时
+c:\users\spj\source\repos\face\face\main.cpp(113): error C2039: “predict”: 不是“cv::Ptr”的成员
+  c:\users\spj\downloads\opencv\build\include\opencv2\core\cvstd.hpp(262): note: 参见“cv::Ptr”的声明
